@@ -1,18 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function Tree() {
+function App() {
     return (
-        <div className="Tree">
-            <header className="Tree-header">
-                <img src={logo} className="App-logo" alt="logo"/>
+        <div className="App">
+            <header className="App-header">
                 <p>
                     My first Project
                 </p>
             </header>
             <main>
-                <section className="Tree-hero-section">
+                <section className="App-hero-section">
                     <p>
                         starting at <time>2023-09-11</time>
                     </p>
@@ -24,5 +22,3 @@ function Tree() {
         </div>
     );
 }
-
-export default Tree;
